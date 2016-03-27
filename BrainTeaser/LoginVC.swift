@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginVC.swift
 //  BrainTeaser
 //
 //  Created by Jonny B on 3/26/16.
@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import pop
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
