@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D39F47E60A1495FB966AAD05 /* Pods_BrainTeaser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B417260508BD9843BDF082 /* Pods_BrainTeaser.framework */; };
+		F90A141C1CB0D78000787D82 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90A141B1CB0D78000787D82 /* Card.swift */; };
+		F90A141E1CB0D7B300787D82 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90A141D1CB0D7B300787D82 /* Card.xib */; };
+		F91644DD1CA8DD6700868AA2 /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91644DC1CA8DD6700868AA2 /* AnimationEngine.swift */; };
+		F91644DF1CACA7A800868AA2 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91644DE1CACA7A800868AA2 /* GameVC.swift */; };
 		F94A486A1CA7A7A400F58909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A48691CA7A7A400F58909 /* AppDelegate.swift */; };
 		F94A486C1CA7A7A400F58909 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A486B1CA7A7A400F58909 /* LoginVC.swift */; };
 		F94A486F1CA7A7A400F58909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94A486D1CA7A7A400F58909 /* Main.storyboard */; };
@@ -15,6 +19,8 @@
 		F94A48741CA7A7A400F58909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94A48721CA7A7A400F58909 /* LaunchScreen.storyboard */; };
 		F94A48821CA7AEF000F58909 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A48811CA7AEF000F58909 /* CustomTextField.swift */; };
 		F94A48841CA7B08200F58909 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A48831CA7B08200F58909 /* MaterialView.swift */; };
+		F9A6FEB61CD7130800F38FCD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A6FEB51CD7130800F38FCD /* CustomView.swift */; };
+		F9AB84691CB074DD00DEE551 /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AB84681CB074DD00DEE551 /* MyCustomButton.swift */; };
 		F9FC6CD51CA7B67E00BD5CA7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC6CD41CA7B67E00BD5CA7 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +28,10 @@
 		063D943EB3E56D7239AF8BB7 /* Pods-BrainTeaser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaser.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaser/Pods-BrainTeaser.release.xcconfig"; sourceTree = "<group>"; };
 		56B417260508BD9843BDF082 /* Pods_BrainTeaser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTeaser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D4C32C8C30AFF1C224C692F /* Pods-BrainTeaser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTeaser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTeaser/Pods-BrainTeaser.debug.xcconfig"; sourceTree = "<group>"; };
+		F90A141B1CB0D78000787D82 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F90A141D1CB0D7B300787D82 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		F91644DC1CA8DD6700868AA2 /* AnimationEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		F91644DE1CACA7A800868AA2 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		F94A48661CA7A7A400F58909 /* BrainTeaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTeaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94A48691CA7A7A400F58909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94A486B1CA7A7A400F58909 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -32,6 +42,8 @@
 		F94A487B1CA7ABAA00F58909 /* BrainTeaser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainTeaser-Bridging-Header.h"; sourceTree = "<group>"; };
 		F94A48811CA7AEF000F58909 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		F94A48831CA7B08200F58909 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		F9A6FEB51CD7130800F38FCD /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		F9AB84681CB074DD00DEE551 /* MyCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
 		F9FC6CD41CA7B67E00BD5CA7 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +76,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F91644DB1CA8DD5700868AA2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F91644DC1CA8DD6700868AA2 /* AnimationEngine.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		F94A485D1CA7A7A400F58909 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +105,9 @@
 		F94A48681CA7A7A400F58909 /* BrainTeaser */ = {
 			isa = PBXGroup;
 			children = (
+				F91644DB1CA8DD5700868AA2 /* Util */,
 				F94A48801CA7AEB400F58909 /* View */,
 				F94A487F1CA7AEA100F58909 /* Controller */,
-				F94A486D1CA7A7A400F58909 /* Main.storyboard */,
 				F94A48691CA7A7A400F58909 /* AppDelegate.swift */,
 				F94A48701CA7A7A400F58909 /* Assets.xcassets */,
 				F94A48721CA7A7A400F58909 /* LaunchScreen.storyboard */,
@@ -101,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				F94A486B1CA7A7A400F58909 /* LoginVC.swift */,
+				F91644DE1CACA7A800868AA2 /* GameVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -111,6 +132,11 @@
 				F94A48811CA7AEF000F58909 /* CustomTextField.swift */,
 				F94A48831CA7B08200F58909 /* MaterialView.swift */,
 				F9FC6CD41CA7B67E00BD5CA7 /* CustomButton.swift */,
+				F94A486D1CA7A7A400F58909 /* Main.storyboard */,
+				F9AB84681CB074DD00DEE551 /* MyCustomButton.swift */,
+				F90A141B1CB0D78000787D82 /* Card.swift */,
+				F90A141D1CB0D7B300787D82 /* Card.xib */,
+				F9A6FEB51CD7130800F38FCD /* CustomView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -179,6 +205,7 @@
 				F94A48741CA7A7A400F58909 /* LaunchScreen.storyboard in Resources */,
 				F94A48711CA7A7A400F58909 /* Assets.xcassets in Resources */,
 				F94A486F1CA7A7A400F58909 /* Main.storyboard in Resources */,
+				F90A141E1CB0D7B300787D82 /* Card.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,8 +265,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94A486C1CA7A7A400F58909 /* LoginVC.swift in Sources */,
+				F90A141C1CB0D78000787D82 /* Card.swift in Sources */,
 				F94A486A1CA7A7A400F58909 /* AppDelegate.swift in Sources */,
+				F91644DD1CA8DD6700868AA2 /* AnimationEngine.swift in Sources */,
 				F94A48821CA7AEF000F58909 /* CustomTextField.swift in Sources */,
+				F9A6FEB61CD7130800F38FCD /* CustomView.swift in Sources */,
+				F9AB84691CB074DD00DEE551 /* MyCustomButton.swift in Sources */,
+				F91644DF1CACA7A800868AA2 /* GameVC.swift in Sources */,
 				F94A48841CA7B08200F58909 /* MaterialView.swift in Sources */,
 				F9FC6CD51CA7B67E00BD5CA7 /* CustomButton.swift in Sources */,
 			);
